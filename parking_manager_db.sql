@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 15, 2018 at 05:58 PM
+-- Generation Time: Nov 16, 2018 at 05:19 AM
 -- Server version: 5.7.23
 -- PHP Version: 7.2.10
 
@@ -21,9 +21,11 @@ SET time_zone = "+00:00";
 --
 -- Database: `parking_manager_db`
 --
+CREATE DATABASE IF NOT EXISTS `parking_manager_db` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `parking_manager_db`;
 
 -- --------------------------------------------------------
-USE parking_manager_db;
+
 --
 -- Table structure for table `customer`
 --
