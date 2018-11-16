@@ -4,7 +4,7 @@ Standalone app for windows to control the car parks in efficient way.
 ## Configurations
   - Database:
     - Run `Wampserver`
-    - Import `parking_manager_db.sql` to created database
+    - Import `parking_manager_db.sql` database
 
 ## Running
   - Application:
